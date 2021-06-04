@@ -1,0 +1,61 @@
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+/* .main{
+    position: relative;
+    left: 23rem;
+} */
+.pagination{
+    margin-top: 3rem;
+    float: left;
+    padding: 8px 16px;
+}
+.pagination a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination a:hover:not(.active){
+    background-color: #ddd;
+}
+.button{
+    padding: 20px;
+    cursor: pointer;
+    background-color: green;
+    margin: 5px;
+}
+a{
+    cursor: pointer;
+}
+.buttonContainer{
+    margin-top: 10px;
+}
+table{
+    width: 50rem;
+}
+button{
+
+    padding: 10px 31px;
+    margin: 5px;
+    background-color: blueviolet;
+    border: none;
+    color: #f0f0f0;
+    border-radius: 2px;
+}
+.lof{
+    visibility: hidden;
+}
+.main{
+    position: relative;
+    left: 10rem;
+}
+.tableContainer{
+    
+}
+th,td{
+    text-align: center;
+}
